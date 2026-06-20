@@ -1,11 +1,11 @@
 # 🏗️ CONSTRUCT ASK
 **Construction Project Intelligence & Compliance Platform**
 
-*(Add a screenshot of the Dashboard here: `![Construct Ask Dashboard](docs/dashboard.png)`)*
+![Construct Ask Dashboard](docs/dashboard.png)
 
 Construct Ask is an enterprise-grade compliance and supply-chain intelligence platform built for modern construction projects. It replaces manual paperwork and scattered emails with Cryptographically Verifiable Digital Product Passports (DPP), providing a tamper-proof, real-time single source of truth for materials from the factory floor to final installation.
 
-*(Add a screenshot of the Platform Demo here: `![Construct Ask Platform Demo](docs/demo.png)`)*
+![Construct Ask Platform Demo](docs/demo.png)
 
 ## ✨ Key Features
 - **🔒 Cryptographically Verifiable DPPs:** Every material gets a Digital Product Passport signed with Ed25519 keys. Physical QR codes link directly to these immutable records.
@@ -27,8 +27,6 @@ Construct Ask is an enterprise-grade compliance and supply-chain intelligence pl
 | Reporting | ReportLab | Enterprise PDF compliance matrix generation. |
 
 ## 🏗️ System Architecture
-
-*(Add a screenshot of the System Architecture here: `![System Architecture](docs/architecture.png)`)*
 
 ## 🚀 Getting Started (Local Development)
 
