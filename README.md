@@ -19,4 +19,43 @@ Synapse is a production-grade visual AI pipeline builder. Drag node-shaped proce
 
 ## Getting Started
 
-*(Add instructions on how to install and run the project locally here)*
+### 1. Backend Setup
+
+Open a terminal and navigate to the backend directory:
+```bash
+cd backend-20260618T070406Z-3-001/backend
+```
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+Run the backend server:
+```bash
+python -m uvicorn main:app --reload
+```
+Leave this terminal running.
+
+*(Optional)* Run the backend tests to ensure everything is working correctly:
+```bash
+python -m pytest tests/ -v
+```
+
+### 2. Frontend Setup
+
+Open a **new** terminal window and navigate to the frontend directory:
+```bash
+cd frontend-20260618T070345Z-3-001/frontend
+```
+
+Install dependencies:
+```bash
+npm install
+```
+
+Start the React app:
+```bash
+npm start
+```
+The browser will automatically open to `http://localhost:3000`.
